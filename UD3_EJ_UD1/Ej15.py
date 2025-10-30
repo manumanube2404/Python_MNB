@@ -1,6 +1,3 @@
-from math import e
-
-
 print("introduzca 3 numeros:")
 num1=int(input())
 num2=int(input())
