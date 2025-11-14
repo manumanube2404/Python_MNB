@@ -5,4 +5,4 @@ ast="*"
 #     print(ast)
 #     ast=ast+"*"
 for i in range (1,n+1):
-    print(ast*i)    
+    print(ast*i)   
