@@ -3,7 +3,7 @@ numero=int(input())
 asterisco="*"
 espacios=" "
 print(espacios*(numero+1)+asterisco)
-for i in range (0,numero):
+for i in range (1,numero):
     print(espacios*(numero-i)+asterisco+espacios*(i)+asterisco)
 
 
