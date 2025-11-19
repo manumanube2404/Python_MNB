@@ -9,8 +9,7 @@ for i in range (0,numero):
 
 for j in range (numero,0,-1):
     print(espacios*(numero-j)+asterisco+espacios*(j)+asterisco)
-
-    
+   
 print(espacios*(numero+1)+asterisco)
     
 #
