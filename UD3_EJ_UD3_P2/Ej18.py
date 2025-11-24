@@ -1,0 +1,5 @@
+print("introduce A")
+a=int(input())
+print("introduce B")
+b=int(input())
+print(a**b)
