@@ -11,4 +11,5 @@ print(espacio+asterisco*((n-1)*2)+asterisco)
  
 for j in range(1,n-1):
     print(espacio*(j+1)+asterisco*(((n-j)-1)*2)+asterisco)
+
 print(espacio*(n)+asterisco)
