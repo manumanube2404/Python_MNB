@@ -12,7 +12,10 @@ for j in range(len(letra)):
             contador+=1
             print(n_frase)
     if contador>=2:
-        n_frase+=str(letra[j])
+        for g in range(n_frase):
+            if n_frase.__contains__letra[k]:
+                n_frase+=str(letra[j])
+        
 
 print(letra)
 print("Frase: "+n_frase)

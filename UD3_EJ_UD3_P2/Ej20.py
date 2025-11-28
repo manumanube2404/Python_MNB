@@ -1,0 +1,32 @@
+dinero=int(input("introduce el dinero"))
+b500=0
+b200=0
+b100=0
+b50=0
+b20=0
+b10=0
+b5=0
+while dinero!=0:
+    match True:
+        case _ if dinero>=500:
+            b500+=1
+            dinero-=500
+        case _ if dinero>=200:
+            b200+=1
+            dinero-=200
+        case _ if dinero>=100:
+            b100+=1
+            dinero-=100
+        case _ if dinero>=50:
+            b50+=1
+            dinero-=50
+        case _ if dinero>=20:
+            b20+=1
+            dinero-=20
+        case _ if dinero>=10:
+            b10+=1
+            dinero-=10
+        case _ if dinero>=5:
+            b5+=1
+            dinero-=5
+print(f"billetes de 500: {b500} \nbilletes de 200: {b200} \nbilletes de 100: {b100} \nbilletes de 50: {b50} \nbilletes de 20: {b20} \nbilletes de 10: {b10} \nbilletes de 5: {b5} ")
